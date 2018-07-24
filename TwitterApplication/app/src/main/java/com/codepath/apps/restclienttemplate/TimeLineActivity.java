@@ -201,7 +201,7 @@ public class TimeLineActivity extends AppCompatActivity {
 
     // Loading the data on scroll indefinitely
     public void loadNextDataFromApi(int offset) {
-        Toast.makeText(this, "the load next data method is called", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "more", Toast.LENGTH_SHORT).show();
         client.Connect(offset , new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
