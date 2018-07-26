@@ -236,7 +236,7 @@ public class TimeLineActivity extends AppCompatActivity {
 
     private void showAlertDialog() {
         FragmentManager fragment = getSupportFragmentManager();
-        ComposeFragment composeFragment = ComposeFragment.newInstance("Some title");
+        ComposeFragment composeFragment = ComposeFragment.newInstance("Compose a tweet");
         composeFragment.show(fragment, "fragment_compose");
     }
 
